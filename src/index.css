@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0c0714;
+  --bg-deep: #07030c;
+  --panel: #161029;
+  --panel2: #1d1636;
+  --inset: #100b20;
+  --border: #2b2247;
+  --border2: #3a2f5e;
+  --text: #ece9f7;
+  --muted: #a89dc6;
+  --dim: #6f6494;
+  --brand: #8b5cff;
+  --brand-press: #7440e6;
+  --brand-soft: rgba(139, 92, 255, 0.16);
+  --brand-glow: rgba(139, 92, 255, 0.45);
+  --accent: #ffcf4a;
+  --accent-hover: #ffd965;
+  --accent-glow: rgba(255, 207, 74, 0.4);
+  --success: #3ecf8e;
+  --ink: #1a1030;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image: 
+    radial-gradient(1100px 580px at 50% -10%, rgba(139, 92, 255, 0.22), transparent 65%),
+    radial-gradient(600px 400px at 80% 90%, rgba(255, 207, 74, 0.05), transparent 70%),
+    linear-gradient(180deg, #0d0718 0%, #08030f 100%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0714;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2247;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cff;
+}
+
+/* Animations */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(139, 92, 255, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 32px rgba(139, 92, 255, 0.85)) drop-shadow(0 0 10px rgba(255, 207, 74, 0.4));
+  }
+}
+
+.animate-rise {
+  animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.logo-glow {
+  filter: drop-shadow(0 10px 28px rgba(139, 92, 255, 0.5));
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logo-glow:hover {
+  filter: drop-shadow(0 12px 36px rgba(139, 92, 255, 0.85)) drop-shadow(0 0 12px rgba(255, 207, 74, 0.4));
+  transform: scale(1.03);
+}
+
+.neon-border-hover:hover {
+  border-color: #8b5cff;
+  box-shadow: 0 0 20px rgba(139, 92, 255, 0.3);
+}
+
+.neon-text-glow {
+  text-shadow: 0 0 12px rgba(139, 92, 255, 0.6);
+}
+
+.accent-text-glow {
+  text-shadow: 0 0 12px rgba(255, 207, 74, 0.6);
+}

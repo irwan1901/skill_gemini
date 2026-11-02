@@ -1,0 +1,443 @@
+{
+  "chips": [
+    {
+      "id": "all",
+      "label": "All 22"
+    },
+    {
+      "id": "cute",
+      "label": "Cute"
+    },
+    {
+      "id": "print",
+      "label": "Printables"
+    },
+    {
+      "id": "spooky",
+      "label": "Spooky"
+    },
+    {
+      "id": "move",
+      "label": "Ideas that move"
+    },
+    {
+      "id": "quick",
+      "label": "Quick ideas"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-1",
+      "num": "01",
+      "title": "Cute 3D monsters",
+      "desc": "Three tiny friendly monsters on a mossy log. Describe each monster and Nano Banana keeps every detail.",
+      "part": "cute",
+      "tag": "Cute",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/01.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A cute 3D animated film scene for Halloween: three tiny friendly monsters sitting together on a mossy log in a cozy autumn forest at dusk. A fluffy purple monster with one big eye, a small green monster with two little horns, and a round orange monster with a pumpkin stem on its head. They hold small glowing paper lanterns and smile. Big shiny eyes, soft rounded shapes, warm golden lantern light, fireflies, orange leaves on the ground, a gentle blue dusk sky, smooth stylized 3D render like a family animated movie, shallow depth of field."
+        }
+      ]
+    },
+    {
+      "id": "idea-2",
+      "num": "02",
+      "title": "Your pet in a costume",
+      "desc": "Put a pet in a Halloween costume. This dog photo was made with AI first; use a photo of your own pet instead.",
+      "part": "cute",
+      "tag": "Cute",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/02.jpg",
+          "picAspect": "wide",
+          "label": "Step 1 &middot; Start photo (or your own)",
+          "ratio": "16:9",
+          "prompt": "A realistic photo of a happy golden retriever sitting on a cozy living room rug and looking at the camera, soft window light, a sofa and plants behind, shot at eye level."
+        },
+        {
+          "picSrc": "/halloween-nano-banana/03.jpg",
+          "picAspect": "wide",
+          "label": "Step 2 &middot; Add it with + and use this edit",
+          "ratio": "16:9",
+          "prompt": "Put this dog in a cute Halloween costume: a soft orange pumpkin costume with a little green stem hat. Keep the same dog, the same pose and the same room, and add a few small pumpkins and warm string lights in the background."
+        }
+      ]
+    },
+    {
+      "id": "idea-3",
+      "num": "03",
+      "title": "Colouring page",
+      "desc": "A printable colouring page: bold black outlines, no shading and no colour, ready to print.",
+      "part": "cute",
+      "tag": "Cute",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/04.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A printable Halloween coloring page for kids. A smiling jack-o'-lantern, a friendly little ghost, a cute black cat and a witch hat with stars, arranged together in a fun scene with a few bats and a crescent moon. Bold clean black outlines on a pure white background, no shading, no gray, no color, large simple shapes that are easy to color in, full page line art."
+        }
+      ]
+    },
+    {
+      "id": "idea-4",
+      "num": "04",
+      "title": "Party invitation",
+      "desc": "A funny grim reaper DJ invitation. Write your own date, time and address inside the quotes.",
+      "part": "print",
+      "tag": "Make &amp; print",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/05.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A dark modern Halloween party invitation, portrait. A funny grim reaper in a black hooded robe wears big headphones and plays music at a DJ table, his scythe leaning on the speakers, purple and orange stage lights and a little fog behind him, a disco ball shaped like a skull above. Bold modern typography: \"HALLOWEEN PARTY\" large at the top in glowing orange, then \"Saturday, October 31 at 7 PM\" and \"AI2Play Club, 13 Raven Lane\" in clean white letters, and \"Costumes welcome!\" at the bottom. High-quality cinematic lighting, rich detail, sharp easy-to-read text."
+        }
+      ]
+    },
+    {
+      "id": "idea-5",
+      "num": "05",
+      "title": "Stencil and carved pumpkin",
+      "desc": "Make a carving stencil, then see the carved pumpkin before you pick up a knife.",
+      "part": "print",
+      "tag": "Make &amp; print",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/06.jpg",
+          "picAspect": "tall",
+          "label": "Step 1 &middot; The stencil",
+          "ratio": "3:4",
+          "prompt": "A pumpkin carving stencil, a printable template on white paper. A grinning cat face with pointed ears, crescent moon eyes and a wide toothy smile, drawn as bold solid black shapes to cut out, with thin bridges left between the shapes so the design can be carved into a pumpkin. Clean simple vector style, black and white only, centered on the page, a light gray pumpkin outline around the design."
+        },
+        {
+          "picSrc": "/halloween-nano-banana/07.jpg",
+          "picAspect": "wide",
+          "label": "Step 2 &middot; Add the stencil with + and use this",
+          "ratio": "16:9",
+          "prompt": "A real photo of a carved pumpkin on a wooden porch step at night, with exactly this cat face design cut out and glowing bright orange from a candle inside. Autumn leaves and a few small pumpkins beside it, a dark cozy evening, warm light, photorealistic."
+        }
+      ]
+    },
+    {
+      "id": "idea-6",
+      "num": "06",
+      "title": "Decorate your house",
+      "desc": "Real decorations people buy, on the same house. Take a photo of your own house from across the street.",
+      "part": "print",
+      "tag": "Make &amp; print",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/08.jpg",
+          "picAspect": "wide",
+          "label": "Step 1 &middot; Start photo (or your own)",
+          "ratio": "16:9",
+          "prompt": "A realistic photo of a cozy two-story suburban house seen straight from the front, the whole house clearly visible: a white front porch with wooden steps, a red front door, windows on both floors, a small front lawn with a stone path to the door, and no trees or bushes in front of the house. Soft autumn daylight, a few orange leaves on the lawn, taken from across the street at eye level."
+        },
+        {
+          "picSrc": "/halloween-nano-banana/09.jpg",
+          "picAspect": "wide",
+          "label": "Step 2 &middot; Cozy harvest porch",
+          "ratio": "16:9",
+          "prompt": "Decorate this house for Halloween with real decorations people can buy and set up at home, in soft afternoon daylight: pumpkins of many sizes and colors on the porch steps, two hay bales with corn stalks tied to the porch posts, pots of orange and yellow mums, a fall wreath on the red door, a friendly scarecrow standing by the steps and a 'Happy Fall' doormat. Realistic photo, cozy and tidy. Keep the same house, the same camera angle and the same colors of the house."
+        },
+        {
+          "picSrc": "/halloween-nano-banana/10.jpg",
+          "picAspect": "wide",
+          "label": "Or &middot; Fun for kids",
+          "ratio": "16:9",
+          "prompt": "Decorate this house for Halloween in a fun family way with real decorations people buy, in bright daylight: a big inflatable jack-o'-lantern and a cute inflatable ghost on the lawn, a giant fake spider on a stretchy web across one corner of the porch, a witch's striped legs and hat sticking out of a flower bed as if she crashed, and a row of pumpkins on the steps. Realistic photo, playful and colorful. Keep the same house, the same camera angle and the same colors of the house."
+        }
+      ]
+    },
+    {
+      "id": "idea-7",
+      "num": "07",
+      "title": "Witch costume portrait",
+      "desc": "A costume that keeps the same face. This woman was made with AI first; try it with your own photo.",
+      "part": "spooky",
+      "tag": "Spooky",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/11.jpg",
+          "picAspect": "tall",
+          "label": "Step 1 &middot; Start photo (or your own)",
+          "ratio": "3:4",
+          "prompt": "A realistic portrait photo of a smiling woman in her thirties with curly brown shoulder-length hair, wearing a cream knit sweater, sitting on a sofa in a bright living room, natural window light, shot on a 50mm lens."
+        },
+        {
+          "picSrc": "/halloween-nano-banana/12.jpg",
+          "picAspect": "tall",
+          "label": "Step 2 &middot; Add it with + and use this edit",
+          "ratio": "3:4",
+          "prompt": "Keep this woman's exact face, features, curly hair and smile, only change her outfit and the scene: she is dressed as a stylish Halloween witch in a black pointed witch hat and a dark purple velvet dress with a black lace collar, holding a small glowing lantern. She stands in a cozy living room decorated for Halloween with candles, small pumpkins and string lights. Realistic photo, soft warm light, 50mm lens, her face exactly the same as in the photo."
+        }
+      ]
+    },
+    {
+      "id": "idea-8",
+      "num": "08",
+      "title": "Witch tower in game art style",
+      "desc": "A crooked witch's tower in hand-painted fantasy game art. In the video it moves too.",
+      "part": "spooky",
+      "tag": "Spooky",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/13.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A full-bleed stylized fantasy game environment painting of a crooked witch's tower on a rocky hill on Halloween night, seen as a wide landscape. The tall leaning stone tower has a twisted purple tiled roof, round windows glowing with warm amber light and a small balcony with a bubbling cauldron that gives off a soft emerald glow. A winding stone path with two small jack-o'-lanterns climbs to a round wooden door, bare twisted trees with a few orange leaves frame the scene, and a huge pale moon hangs in a deep violet sky with thin glowing clouds and a few bats. Soft mist pools in the valley below. Painted as hand-painted 2D digital fantasy game art: exaggerated stylized proportions with chunky, rounded shapes, bold silhouettes, soft airbrushed gradients with crisp painted highlights, visible painterly brushwork, and saturated colours. The palette is deep violet, emerald green and warm amber with one accent of hot orange. Digital painting with visible hand-painted brushwork, the paint covering the whole picture, free of any words."
+        }
+      ],
+      "animSummary": "Show the animation prompt",
+      "animPrompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] A hand-painted fantasy game art painting comes to life: a crooked witch's tower with a purple roof stands on a rocky hill on Halloween night under a huge glowing moon. Soft purple mist drifts slowly through the valley below, the cauldron on the balcony bubbles and sends thin wisps of glowing green smoke curling upward, the warm windows of the tower flicker gently, the two small jack-o'-lanterns on the path glow, a few small bats flutter across the moon, thin clouds drift slowly across the violet sky and the last orange leaves tremble on the twisted branches. The painted game art style stays exactly the same. The camera is static.\n\noverall_soundscape: A soft night wind, a cauldron bubbling quietly, a distant owl hooting once.\n\nnon_diegetic_music: N/A"
+    },
+    {
+      "id": "idea-9",
+      "num": "09",
+      "title": "Retro horror poster",
+      "desc": "An 80s VHS horror poster for a film that does not exist. Swap the title for your own.",
+      "part": "spooky",
+      "tag": "Spooky",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/14.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A 1980s VHS horror movie poster for an original film. At the top, the title in big dripping red letters: \"THE PUMPKIN PATCH\". Below, a giant glowing jack-o'-lantern rising over a small farm town at night, its light spilling across the fields, and a kid with a flashlight standing on a dirt road in the foreground, seen from behind. Airbrushed painted poster art, worn VHS cover texture with creases. At the bottom, a small tagline: \"This Halloween, nobody is safe.\""
+        }
+      ]
+    },
+    {
+      "id": "idea-10",
+      "num": "10",
+      "title": "Greeting card that moves",
+      "desc": "A curious kitten at a moonlit window, then turned into a short video with sound.",
+      "part": "move",
+      "tag": "Bring it to life",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/15.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A charming Halloween greeting card scene in polished 3D animated movie style. A curious little black kitten wearing a tiny purple witch hat sits on a cozy windowsill next to a glowing carved jack-o'-lantern and a lit candle, looking out at a little bat fluttering past the full moon. Outside the window, a moonlit autumn garden in soft blue and purple tones; inside, warm golden light. At the top, the words \"Happy Halloween!\" in elegant glowing orange 3D letters. Rich detail and lovely soft lighting, with one clear main subject in the center."
+        }
+      ],
+      "animSummary": "Show the animation prompt",
+      "animPrompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] A polished 3D animated movie scene comes to life: a curious little black kitten wearing a tiny purple witch hat sits on a cozy windowsill inside a warm room, next to a glowing carved jack-o'-lantern and a lit candle. The window is closed. Outside, behind the glass, a small bat flutters slowly across the full moon and stays outside the window the whole time. The kitten blinks its big green eyes and turns its head to follow the bat through the glass, then opens its little mouth wide and gives one tiny meow, and its tail swishes gently. The candle flame flickers softly, the jack-o'-lantern glows warmly, and a few orange leaves drift down outside the window. The words \"Happy Halloween!\" at the top stay still and sharp. The camera is static.\n\noverall_soundscape: A cozy quiet room, a candle flickering softly. One tiny kitten meow, exactly when the kitten opens its mouth.\n\nnon_diegetic_music: N/A"
+    },
+    {
+      "id": "idea-11",
+      "num": "11",
+      "title": "Cupcakes",
+      "desc": "Six cupcakes, each with its own little topper. Name every topper you want.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/16.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A close-up food photo of six Halloween cupcakes on a dark slate board: chocolate cupcakes with tall swirls of bright orange frosting, each topped with one small decoration: a tiny fondant ghost, a candy pumpkin, a little black cat face, a big candy eye, a sugar bat and a white chocolate spider web. A few sprinkles around them, warm side light, dark moody background. Food photography, sharp and appetizing."
+        }
+      ]
+    },
+    {
+      "id": "idea-12",
+      "num": "12",
+      "title": "Decorated cookies",
+      "desc": "Only four cookies, close up, so every detail comes out clean. Small things far away often come out wrong.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/17.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A close-up photo of four decorated Halloween sugar cookies on parchment paper, seen from above at a slight angle: a white ghost, an orange pumpkin, a black cat and a purple bat with two complete wings, each covered with smooth royal icing with neat piped details and a little smiling face. Next to them two metal cookie cutters, a bat shape and a pumpkin shape, and a piping bag with orange icing. A few sprinkles on the paper. Soft daylight, realistic food photography, sharp details."
+        }
+      ]
+    },
+    {
+      "id": "idea-13",
+      "num": "13",
+      "title": "Witch's Brew cocktail",
+      "desc": "A real drink photo with smoke over the glass. The name sits on a small chalkboard sign.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/18.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A realistic photo of a Halloween cocktail called Witch's Brew on a dark wooden bar counter: a glowing purple drink in a coupe glass with a black sugar rim, a curl of white smoke from dry ice spilling over the edge, a twist of lime and a small black rosemary sprig. Beside the glass a tiny chalkboard sign with the words \"WITCH'S BREW\" in white chalk, a few small pumpkins and a candle in the dark background. Moody bar lighting, shallow depth of field, professional drink photography."
+        }
+      ]
+    },
+    {
+      "id": "idea-14",
+      "num": "14",
+      "title": "Sticker sheet",
+      "desc": "Twelve cute die-cut stickers with cut lines, ready to print.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/19.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A printable sheet of cute Halloween stickers on white paper, portrait. Twelve die-cut stickers with thick white borders, neatly arranged in rows: a smiling pumpkin, a friendly ghost, a black cat in a witch hat, a bat, a candy corn, a sleepy moon with a face, a cauldron with green bubbles, a little mummy, a candy apple, a spider on a web, a swirly lollipop and a glowing lantern. Bold outlines, soft pastel orange, purple and mint colors. Flat kawaii illustration style."
+        }
+      ]
+    },
+    {
+      "id": "idea-15",
+      "num": "15",
+      "title": "Trick or treat sign",
+      "desc": "A printable sign for your door. Put your own family name inside the quotes.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/20.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A printable Halloween door sign for trick-or-treaters, portrait, on white paper. At the top in big orange hand-lettered words: \"TRICK OR TREAT\". In the middle a cute cartoon bowl full of candy with a little ghost peeking out of it. Below in bold black letters: \"Please take 2!\" and at the bottom, smaller: \"Happy Halloween from the Millers\". Clean layout with lots of white space and a thin orange border. Playful flat illustration style."
+        }
+      ]
+    },
+    {
+      "id": "idea-16",
+      "num": "16",
+      "title": "Easy DIY costumes",
+      "desc": "An idea sheet with six homemade costumes, each one with its name.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/21.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "An illustrated idea sheet titled \"6 EASY DIY COSTUMES\", landscape. Six kids in simple homemade costumes stand in a row, each with a small label below: \"Sheet Ghost\", \"Cardboard Robot\", \"Black Cat\", \"Paper Mummy\", \"Pumpkin\", \"Skeleton Pajamas\". Cream paper background, small doodles of stars and bats, neat hand-lettered labels. Friendly flat illustration style."
+        }
+      ]
+    },
+    {
+      "id": "idea-17",
+      "num": "17",
+      "title": "Paper cut shadow box",
+      "desc": "Layered paper craft lit from behind, in purple, orange and black.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/22.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A layered paper cut shadow box for Halloween, lit from behind: six layers of cut paper in deep purple, orange and black make a haunted forest with twisted trees, a witch flying on a broom across a big round moon, bats, and a small house with glowing windows at the bottom. Soft light glows between the layers. A photo of real handmade paper craft in a white wooden frame on a shelf."
+        }
+      ]
+    },
+    {
+      "id": "idea-18",
+      "num": "18",
+      "title": "Crochet friends",
+      "desc": "A pumpkin, a ghost, a bat and a black cat in soft yarn on a wooden shelf.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/23.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A cozy photo of handmade crochet Halloween toys on a wooden shelf: a chubby orange pumpkin with a green stem, a little white ghost with black button eyes, a purple bat with open wings and a black cat in a tiny witch hat. The soft yarn texture is easy to see, a few autumn leaves and a ball of orange yarn with a crochet hook lie beside them. Warm window light, shallow depth of field, realistic photo."
+        }
+      ]
+    },
+    {
+      "id": "idea-19",
+      "num": "19",
+      "title": "Clay vampire",
+      "desc": "A stop-motion clay scene: a friendly vampire baking a pumpkin pie.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/24.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A stop-motion claymation scene for Halloween: a small clay vampire with a big black cape and a friendly grin bakes a pumpkin pie in a cozy little kitchen, flour on the table, a clay black cat watching from a stool, an orange pot on the stove and paper bats on the window. Visible fingerprints on the clay, handmade sets, soft studio lights. Stop-motion animation style."
+        }
+      ]
+    },
+    {
+      "id": "idea-20",
+      "num": "20",
+      "title": "Tiny haunted house",
+      "desc": "A handmade miniature on a desk, shot close like a macro photo.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/25.jpg",
+          "picAspect": "wide",
+          "label": "Prompt",
+          "ratio": "16:9",
+          "prompt": "A tiny handmade miniature diorama of a haunted Victorian house on a wooden desk, about the size of a shoebox: a crooked roof, glowing yellow windows, a bare twisted tree, small pumpkins along the path, cotton fog around the base and a tiny full moon on a wire. A cutting mat, a paint brush and glue bottles beside it. Macro photo with a shallow depth of field, tilt-shift look, warm desk lamp light."
+        }
+      ]
+    },
+    {
+      "id": "idea-21",
+      "num": "21",
+      "title": "Comic strip for kids",
+      "desc": "Four panels with the words in speech bubbles. Write your own lines inside the quotes.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/26.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A four-panel comic strip for kids, portrait, four panels in a 2 by 2 grid. Panel 1: a little white ghost hides under a blanket in a dark bedroom, speech bubble: \"I'm scared of the dark!\". Panel 2: a black cat switches on a pumpkin night light. Panel 3: the room glows orange and the ghost peeks out, speech bubble: \"Oh! That's better.\". Panel 4: the ghost and the cat sleep together, a small caption: \"Goodnight, Boo.\". Clean bold lines, bright colors, cute cartoon style."
+        }
+      ]
+    },
+    {
+      "id": "idea-22",
+      "num": "22",
+      "title": "Boo Crew T-shirt",
+      "desc": "A T-shirt design on a real shirt. Change the words in quotes to your own group's name.",
+      "part": "quick",
+      "tag": "Quick ideas",
+      "rows": [
+        {
+          "picSrc": "/halloween-nano-banana/27.jpg",
+          "picAspect": "tall",
+          "label": "Prompt",
+          "ratio": "3:4",
+          "prompt": "A product photo of a black cotton T-shirt laid flat on a light wooden floor, with a printed design on the chest: three cute ghosts in a row wearing sunglasses and the words \"BOO CREW\" in big retro orange letters below them. A small pumpkin and a few wrapped candies beside the shirt. Top-down view, soft daylight, realistic merch photo."
+        }
+      ]
+    }
+  ]
+}

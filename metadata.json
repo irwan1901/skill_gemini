@@ -1,0 +1,6 @@
+{
+  "name": "AI2Play - Fusion of Innovation & Imagination",
+  "description": "Website resmi AI2Play dengan koleksi prompt AI, resource tutorial, Discord, channel YouTube, dan desain bertema hitam neon responsif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
