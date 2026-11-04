@@ -12,6 +12,7 @@ import { IconArtStylesView } from './components/IconArtStylesView';
 import { TypographyArtStylesView } from './components/TypographyArtStylesView';
 import { CharacterArtStylesView } from './components/CharacterArtStylesView';
 import { PhotoshopPluginView } from './components/PhotoshopPluginView';
+import { ConsistentCharactersView } from './components/ConsistentCharactersView';
 import { AdminView } from './components/AdminView';
 import { TutorialModal } from './components/TutorialModal';
 import { Toast } from './components/Toast';
@@ -26,7 +27,9 @@ export default function App() {
   useEffect(() => {
     const handleLocationChange = () => {
       const hash = window.location.hash.toLowerCase();
-      if (hash.includes('halloween')) {
+      if (hash.includes('consistent-characters') || hash.includes('character-skills')) {
+        setActiveTab('consistent-characters');
+      } else if (hash.includes('halloween')) {
         setActiveTab('halloween');
       } else if (hash.includes('nano-banana')) {
         setActiveTab('nano-banana');
@@ -60,7 +63,9 @@ export default function App() {
 
   const handleTabChange = (tab: ActiveTab) => {
     setActiveTab(tab);
-    if (tab === 'halloween') {
+    if (tab === 'consistent-characters') {
+      window.location.hash = 'consistent-characters';
+    } else if (tab === 'halloween') {
       window.location.hash = 'halloween';
     } else if (tab === 'nano-banana') {
       window.location.hash = 'nano-banana';
@@ -111,6 +116,7 @@ export default function App() {
           <ResourcesView 
             onBackToHome={() => handleTabChange('hub')}
             onSelectTutorial={(tutorial) => setSelectedTutorial(tutorial)}
+            onOpenConsistentCharacters={() => handleTabChange('consistent-characters')}
             onOpenGeminiSkills={() => handleTabChange('gemini-skills')}
             onOpenNanoBanana={() => handleTabChange('nano-banana')}
             onOpenHalloween={() => handleTabChange('halloween')}
@@ -120,6 +126,14 @@ export default function App() {
             onOpenTypographyArtStyles={() => handleTabChange('typography-art-styles')}
             onOpenCharacterArtStyles={() => handleTabChange('character-art-styles')}
             onOpenPhotoshopPlugin={() => handleTabChange('photoshop-plugin')}
+          />
+        )}
+
+        {activeTab === 'consistent-characters' && (
+          <ConsistentCharactersView
+            onBackToResources={() => handleTabChange('resources')}
+            onTriggerToast={handleTriggerToast}
+            onGoToCharacterStyles={() => handleTabChange('character-art-styles')}
           />
         )}
 

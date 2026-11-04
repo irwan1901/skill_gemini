@@ -2,6 +2,52 @@ import { Tutorial, CommunityTool } from '../types';
 
 export const TUTORIALS_DATA: Tutorial[] = [
   {
+    id: 'consistent-characters',
+    slug: 'gemini-character-skills.html',
+    title: 'Consistent Characters: 3 Free Gemini Skills + 35 Art Styles',
+    category: 'Gemini Skills',
+    ep: 'Consistent Characters',
+    description: '3 free Gemini skills to design a character, make its sheet and keep it the same in every scene. Includes 35 art styles list.',
+    iconType: 'user-round',
+    youtubeUrl: 'https://www.youtube.com/@AI2Play',
+    toolUrl: 'https://gemini.google.com/',
+    promptsCount: 4,
+    prompts: [
+      {
+        id: 'cc-1',
+        title: 'Character Creator',
+        command: '@character-creator',
+        promptText: 'a little otter sailor in the Soft Heroic Game style. Follow the skill\'s steps.',
+        note: 'Turns your idea into one clean design: the whole character on a plain background, in one of 35 art styles.',
+        step: 'TYPE @CHARACTER-CREATOR, THEN'
+      },
+      {
+        id: 'cc-2',
+        title: 'Character Sheet',
+        command: '@character-sheet',
+        promptText: 'make a character sheet of this character',
+        note: 'Attach your character\'s image and get one sheet: the front, the side and the back, plus three faces.',
+        step: 'ATTACH THE IMAGE, TYPE @CHARACTER-SHEET, THEN'
+      },
+      {
+        id: 'cc-3',
+        title: 'Same Character',
+        command: '@same-character',
+        promptText: 'this character steering a small wooden sailboat at sunrise, both paws on the tiller, calm sea. Follow the skill\'s steps.',
+        note: 'Attach the character sheet and describe a new scene: the same face, colours and outfit, in a new place, pose or outfit.',
+        step: 'ATTACH THE SHEET, TYPE @SAME-CHARACTER, THEN'
+      },
+      {
+        id: 'cc-4',
+        title: 'Combine Skills',
+        command: '@character-creator and @character-sheet',
+        promptText: 'a little fox mail carrier, style 9: make the character sheet of this new character. Follow the skills\' steps.',
+        note: 'Type @ twice and pick Character Creator and Character Sheet: a new character and its sheet in one message.',
+        step: 'TYPE @CHARACTER-CREATOR AND @CHARACTER-SHEET, THEN'
+      }
+    ]
+  },
+  {
     id: 'gemini-skills',
     slug: 'gemini-skills.html',
     title: 'Gemini Skills: Full Tutorial for Beginners + Free Skills',

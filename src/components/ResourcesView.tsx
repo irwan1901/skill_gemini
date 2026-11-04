@@ -22,6 +22,7 @@ import {
 interface ResourcesViewProps {
   onBackToHome: () => void;
   onSelectTutorial: (tutorial: Tutorial) => void;
+  onOpenConsistentCharacters?: () => void;
   onOpenGeminiSkills?: () => void;
   onOpenNanoBanana?: () => void;
   onOpenHalloween?: () => void;
@@ -36,6 +37,7 @@ interface ResourcesViewProps {
 export const ResourcesView: React.FC<ResourcesViewProps> = ({ 
   onBackToHome, 
   onSelectTutorial,
+  onOpenConsistentCharacters,
   onOpenGeminiSkills,
   onOpenNanoBanana,
   onOpenHalloween,
@@ -161,7 +163,7 @@ export const ResourcesView: React.FC<ResourcesViewProps> = ({
           <div className="flex items-center gap-3 text-xs text-[#a89dc6] self-start sm:self-auto bg-[#161029]/60 px-3.5 py-2 rounded-xl border border-[#2b2247]">
             <span className="flex items-center gap-1.5 text-[#ffcf4a] font-semibold">
               <Flame className="w-3.5 h-3.5" />
-              10 Guides Available
+              {TUTORIALS_DATA.length} Guides Available
             </span>
             <span>&bull;</span>
             <span>Instant Copy Ready</span>
@@ -216,7 +218,9 @@ export const ResourcesView: React.FC<ResourcesViewProps> = ({
               <div
                 key={tutorial.id}
                 onClick={() => {
-                  if (tutorial.id === 'gemini-skills' && onOpenGeminiSkills) {
+                  if (tutorial.id === 'consistent-characters' && onOpenConsistentCharacters) {
+                    onOpenConsistentCharacters();
+                  } else if (tutorial.id === 'gemini-skills' && onOpenGeminiSkills) {
                     onOpenGeminiSkills();
                   } else if (tutorial.id === 'nano-banana-2-1-beginners' && onOpenNanoBanana) {
                     onOpenNanoBanana();

@@ -1499,6 +1499,14 @@ export const AdminView: React.FC<AdminViewProps> = ({
                   </button>
 
                   <button
+                    onClick={() => navigateToPage('consistent-characters')}
+                    className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#160d2a] hover:bg-[#20143a] text-white border border-[#352558] hover:border-[#8b5cff] transition-all cursor-pointer"
+                  >
+                    <span>Consistent Characters</span>
+                    <ExternalLink className="w-3.5 h-3.5 text-[#8b5cff]" />
+                  </button>
+
+                  <button
                     onClick={() => navigateToPage('character-art-styles')}
                     className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-[#160d2a] hover:bg-[#20143a] text-white border border-[#352558] hover:border-[#8b5cff] transition-all cursor-pointer"
                   >

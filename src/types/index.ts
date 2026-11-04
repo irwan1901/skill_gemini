@@ -34,4 +34,4 @@ export interface CommunityTool {
   badge?: string;
 }
 
-export type ActiveTab = 'hub' | 'resources' | 'gemini-skills' | 'nano-banana' | 'halloween' | 'painting-gems' | 'photography-gems' | 'icon-art-styles' | 'typography-art-styles' | 'character-art-styles' | 'photoshop-plugin' | 'admin';
+export type ActiveTab = 'hub' | 'resources' | 'consistent-characters' | 'gemini-skills' | 'nano-banana' | 'halloween' | 'painting-gems' | 'photography-gems' | 'icon-art-styles' | 'typography-art-styles' | 'character-art-styles' | 'photoshop-plugin' | 'admin';
